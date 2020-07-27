@@ -1,11 +1,5 @@
-
-<% provide :title, "Contact" %>
-<div class="center jumbotron">
-	<h1>Welcome to the Sample App</h1>
-	<h2>
-		This is the Contact page for the
-		<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
- 		sample application.
- 	</h2>
- 	<%= link_to "Sign up now!",'#',class: "btn btn-lg btn-primary" %>
-</div>
+<% provide :title, t(".contact") %>
+<h1><%= t ".contact" %></h1>
+<p>
+  <%= t(".content_html", link: link_to(t(".link_desc"), Settings.link.contact.contact)) %>
+</p>

@@ -1,33 +1,29 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      home: "Home"
+      name: "Sample App"
+      content_html: "This is the Home page for the %{link} sample application."
+      link_desc: "Ruby on Rails Tutorial"
+    contact:
+      contact: "Contact"
+      content_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{link} "
+      link_desc: "contact page"
+    help:
+      help: "help"
+      content_html: "Get help on the Ruby on Rails Tutorial at the %{link} sample application. To get help on this sample app, see the %{link1}"
+      link_desc: "Rails Tutorial Help page"
+      link1_desc: "Ruby on Rails Tutorial Book"
+    about:
+      about: "About"
+      content_html: "The %{link},"
+      content1_html: " part of the %{link} family of tutorials, "
+      content2_html: "is a %{link} and "
+      content3_html: "%{link} to teach web development with"
+      link_desc: "Ruby on Rails Tutorial"
+      link1_desc: "Learn Enough"
+      link2_desc: "Book"
+      link3_desc: "screencast series"
