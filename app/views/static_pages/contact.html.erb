@@ -1,5 +1,6 @@
 <% provide :title, t(".contact") %>
-<h1><%= t ".contact" %></h1>
-<p>
-  <%= t(".content_html", link: link_to(t(".link_desc"), Settings.link.contact.contact)) %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".welcome" %></h1>
+  <h2><%= t(".content_html", link: link_to(t(".link_desc"), Settings.link.home)) %></h2>
+  <%= link_to t(".sign_up_now"), "#", class: "btn btn-lg btn-primary" %>
+</div>
