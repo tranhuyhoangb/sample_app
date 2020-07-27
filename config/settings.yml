@@ -1,0 +1,14 @@
+link:
+  home: "http://www.railstutorial.org/"
+  news: "https://news.railstutorial.org/"
+  author: "https://www.michaelhartl.com/"
+  help:
+    book: "https://www.railstutorial.org/book"
+    default: "https://www.railstutorial.org/help"
+  about:
+    screencasts: "https://screencasts.railstutorial.org/"
+    book: "https://www.railstutorial.org/book"
+    learnenough: "https://www.learnenough.com/"
+    home: "https://www.railstutorial.org/"
+  contact: 
+    contact: "https://www.railstutorial.org/contact"

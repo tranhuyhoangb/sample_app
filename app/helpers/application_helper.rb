@@ -1,6 +1,6 @@
 module ApplicationHelper
-	def full_title page_title = ""
-		base_title = "Ruby on Rails Tutorial Sample App"
-		base_title.empty? ? base_title : "#{page_title} | #{base_title}" 
-	end	
+  def full_title page_title
+    base_title = t ".base_title"
+    base_title.blank? ? base_title : "#{page_title} | #{base_title}"
+  end
 end

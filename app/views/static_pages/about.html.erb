@@ -1,0 +1,8 @@
+<% provide :title, t(".about") %>
+<h1><%= t ".about" %></h1>
+<p>
+  <%= t(".content_html", link: link_to(t(".link_desc"), Settings.link.about.home)) %>
+  <%= t(".content1_html", link: link_to(t(".link1_desc"), Settings.link.about.learnenough)) %>
+  <%= t(".content2_html", link: link_to(t(".link2_desc"), Settings.link.about.book)) %>
+  <%= t(".content3_html", link: link_to(t(".link3_desc"), Settings.link.about.screencasts)) %>
+</p>
