@@ -44,3 +44,7 @@ vi:
       sign_up_now: "Đăng nhập ngay!"
       content1: "Đây là trang"
       link_desc: "khóa học Ruby"
+  users:
+    new:
+      user: "Nguời dùng # Tin tức"
+      desc: "Tìm file ở app/views/users/new.html.erb"
