@@ -1,0 +1,31 @@
+vi:
+  layouts:
+    application:
+      base_title: "Khóa học Ruby on Rails "
+      en: "Tiếng Anh"
+      vn: "Tiếng Việt"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      name: "Sample App"
+      content_html: "Đây là trang chu  %{link} "
+      link_desc: "khóa học Ruby"
+    help:
+      help: "Hỗ trợ"
+      content_html: "Trang trợ giúp của Rails %{link} . Đọc thêm sách  %{link1}"
+      link_desc: "Rails Tutorial Help page"
+      link1_desc: "Ruby on Rails Tutorial Book"
+    contact:
+      contact: "Liên hệ"
+      content_html: "Trang Liên Hệ  %{link} "
+      link_desc: "Web"
+    about:
+      about: "Thông tin"
+      content_html: "Khóa Học  %{link}, "
+      content1_html: "Một phần cửa khóa học  %{link} , "
+      content2_html: "đây là %{link} và "
+      content3_html: "%{link} để dạy cho các lập trình viên"
+      link_desc: "Ruby on Rails Tutorial"
+      link1_desc: "khóa học ngắn"
+      link2_desc: "Sach"
+      link3_desc: "screencast series"

@@ -4,21 +4,14 @@
     <title><%= full_title yield :title %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag 'custom', media: 'all' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
   </head>
-
   <body>
-    
-<body>
-  <%= render "shared/header" %>
- <div class="container">
-  <%= yield %>
- </div>
- <script type="text/javascript">
-  
- </script>
-</body>
+    <%= link_to t(".en"), locale:"en" %>
+    <%= link_to t(".vn"), locale:"vi" %>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
 </html>
