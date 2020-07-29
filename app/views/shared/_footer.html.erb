@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t ".content1" %>
+    <%= link_to(t(".link_desc"), Settings.link.home) %>
+    <%= t ".content2" %>
+    <%= link_to(t(".link1_desc"), Settings.link.author) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), "about" %></li>
+      <li><%= link_to t(".contact"), "contact" %></li>
+      <li><%= link_to t(".news"), Settings.link.news %></li>
+    </ul>
+  </nav>
+</footer>

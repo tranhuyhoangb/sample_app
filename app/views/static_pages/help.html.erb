@@ -1,5 +1,8 @@
 <% provide :title, t(".help") %>
-<h1><%= t ".help" %></h1>
-<p>
-  <%= t(".content_html", link: link_to(t(".link_desc"), Settings.link.help.t),link1: link_to(t(".link1_desc"), Settings.link.help.book)) %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".welcome" %></h1>
+  <h2>
+    <%= t(".content_html", link: link_to(t(".link_desc"), Settings.link.home)) %>
+  </h2>
+  <%= link_to t(".sign_up_now"), "#", class: "btn btn-lg btn-primary" %>
+</div>
