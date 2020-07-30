@@ -44,3 +44,7 @@ en:
       sign_up_now: "Sign up now!"
       content1: "This is the Contact page for the"
       link_desc: "Ruby on Rails Tutorial"
+  users:
+    new:
+      user: "Users#new"
+      desc: "Find me in app/views/users/new.html.erb"
