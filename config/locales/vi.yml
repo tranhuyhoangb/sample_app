@@ -46,5 +46,14 @@ vi:
       link_desc: "khóa học Ruby"
   users:
     new:
-      user: "Nguời dùng # Tin tức"
+      sign_up: "Đăng Ký"
+      name: "Họ và tên"
+      email: "Địa chỉ Email"
+      password: "Mật khẩu"
+      password_comfir: "Nhập lại mật khẩu"
+      name1: "Nhập tên của bạn"
+      email1: "Nhập địa chỉ Email của ban "
+      password1: "Nhập mật khẩu"
+      password_comfir1: "Nhập lại mật khẩu"
+      btn_submit: "Đăng ký tài khoản"
       desc: "Tìm file ở app/views/users/new.html.erb"

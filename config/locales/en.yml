@@ -46,5 +46,14 @@ en:
       link_desc: "Ruby on Rails Tutorial"
   users:
     new:
-      user: "Users#new"
+      sign_up: "Sign Up"
+      name: "Name"
+      email: "Email Address"
+      password: "Password"
+      password_comfir: "Confirmation "
+      name1: "Enter Your Name"
+      email1: "Enter Your Email"
+      password1: "Enter Your Password"
+      password_comfir1: "Enter Confir Password"
+      btn_submit: "Create my account"
       desc: "Find me in app/views/users/new.html.erb"
