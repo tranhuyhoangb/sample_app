@@ -14,7 +14,10 @@ link:
     contact: "https://www.railstutorial.org/contact"
 validations:
   user:
-    email_regex: !ruby/regex '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
-    max_name_length: "50"
-    max_email_length: "255"
-    min_password_length: "6"
+    email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
+    max_name_length: 50
+    max_email_length: 255
+    min_password_length: 6
+helper:
+  user:
+    size: 80
