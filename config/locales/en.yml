@@ -9,6 +9,11 @@ en:
       help: "help"
       login: "login"
       contact: "contact"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      user: "User"
       en: "En"
       vn: "VN"
     footer:
@@ -57,3 +62,14 @@ en:
       password_comfir1: "Enter Confir Password"
       btn_submit: "Create my account"
       desc: "Find me in app/views/users/new.html.erb"
+    create:
+      fail: "Create  Fail! >.<"
+  sessions:
+    new:
+      login: "Log In"
+      email: "Email Address"
+      password: "Password"
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+    create:
+      danger: "Invalid email/password combination"
