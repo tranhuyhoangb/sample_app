@@ -9,6 +9,11 @@ vi:
       help: "Hỗ trợ"
       login: "Đăng nhập"
       contact: "Liên hệ"
+      account: "Tài Khoản"
+      profile: "Thông tin"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      user: "NGuoi Dung"
       en: "Tiếng anh"
       vn: "Tiếng Việt"
     footer:
@@ -57,3 +62,14 @@ vi:
       password_comfir1: "Nhập lại mật khẩu"
       btn_submit: "Đăng ký tài khoản"
       desc: "Tìm file ở app/views/users/new.html.erb"
+    create:
+      fail: "Tạo thất bại! >.<"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Địa chỉ Email"
+      password: "Mật khẩu"
+      new_user: "Tài khoản mới?"
+      signup_now: "Đăng kí ngay!"
+    create:
+      danger: "email Không hợp lệ/Mật khẩu chưa chính xác "
