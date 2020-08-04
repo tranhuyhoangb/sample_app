@@ -21,3 +21,5 @@ validations:
 helper:
   user:
     size: 80
+form:
+  check_box: "1"
