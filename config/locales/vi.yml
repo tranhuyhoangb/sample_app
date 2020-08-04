@@ -60,10 +60,37 @@ vi:
       email1: "Nhập địa chỉ Email của ban "
       password1: "Nhập mật khẩu"
       password_comfir1: "Nhập lại mật khẩu"
-      btn_submit: "Đăng ký tài khoản"
+      save: "Đăng ký tài khoản"
+      desc: "Tìm file ở app/views/users/new.html.erb"
+    form:
+      sign_up: "Đăng Ký"
+      name: "Họ và tên"
+      email: "Địa chỉ Email"
+      password: "Mật khẩu"
+      password_comfir: "Nhập lại mật khẩu"
+      name1: "Nhập tên của bạn"
+      email1: "Nhập địa chỉ Email của ban "
+      password1: "Nhập mật khẩu"
+      password_comfir1: "Nhập lại mật khẩu"
+      save: "Đăng ký tài khoản"
       desc: "Tìm file ở app/views/users/new.html.erb"
     create:
       fail: "Tạo thất bại! >.<"
+    update:
+      updated: "Tài khoản đã được cập nhật"
+    destroy:
+      destroy: "Đã xóa tài khoản !"
+    logged_in_user:
+      logged_in: "Hãy đăng nhập"
+    user:
+      delete: "Xóa"
+      confirm: "Xác nhận xóa"
+    index:
+      all_user: "Tất cả tài khoản"
+    edit:
+      edit_user: "Chỉnh sửa tài khoản cá nhân"
+      save: "Lưu thay đổi"
+      desc: "Chỉnh sửa tài khoản cá nhân "
   sessions:
     new:
       login: "Đăng nhập"
