@@ -60,10 +60,37 @@ en:
       email1: "Enter Your Email"
       password1: "Enter Your Password"
       password_comfir1: "Enter Confir Password"
+      save: "Create my account"
+      desc: "Find me in app/views/users/new.html.erb"
+    form:
+      sign_up: "Sign Up"
+      name: "Name"
+      email: "Email Address"
+      password: "Password"
+      password_comfir: "Confirmation "
+      name1: "Enter Your Name"
+      email1: "Enter Your Email"
+      password1: "Enter Your Password"
+      password_comfir1: "Enter Confir Password"
       btn_submit: "Create my account"
       desc: "Find me in app/views/users/new.html.erb"
     create:
       fail: "Create  Fail! >.<"
+    update:
+      updated: "Profile updated"
+    destroy:
+      destroy: "User deleted"
+    logged_in_user:
+      logged_in: "Please log in."
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+    index:
+      all_user: "All users"
+    edit:
+      edit_user: "Edit user"
+      save: "Save Change"
+      desc: "Update your profile"
   sessions:
     new:
       login: "Log In"
@@ -71,5 +98,6 @@ en:
       password: "Password"
       new_user: "New user?"
       signup_now: "Sign up now!"
+      remember_me: "Remember me on this computer"
     create:
       danger: "Invalid email/password combination"
