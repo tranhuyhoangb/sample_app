@@ -13,17 +13,15 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
-    return if @user
-
-    redirect_to root_path
+    redirect_to root_url && return if @user.activated
   end
 
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".flash", username: @user.name
-      redirect_to user_path @user
+      @user.send_activation_email
+      flash[:info] = t ".check_mail"
+      redirect_to root_url
     else
       flash[:success] = t ".fail"
       render :new
@@ -57,11 +55,11 @@ class UsersController < ApplicationController
   end
 
   def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t ".logged_in"
-      redirect_to login_url
-    end
+    return if logged_in?
+
+    store_location
+    flash[:danger] = t ".logged_in"
+    redirect_to login_url
   end
 
   def correct_user

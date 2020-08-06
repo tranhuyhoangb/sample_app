@@ -101,3 +101,13 @@ vi:
       remember_me: "Nhớ đăng nhập!"
     create:
       danger: "email Không hợp lệ/Mật khẩu chưa chính xác "
+  user_mailer:
+    account_activation:
+      body_mail: "Chào mừng bạn đến với  Sample App! Hãy click vào link bên dưới để activate tài khoản của bạn"
+      hi: "Xin Chào  "
+      detail: "Chào mừng bạn đến với  Sample App! Hãy click vào link bên dưới để activate tài khoản của bạn"
+      subject: "Kích hoạt tài khoản"
+  account_activations:
+    edit:
+      activated: "Tài khoản đã được xác thực"
+      no_activated: "Link xác thực không tồn tại"
