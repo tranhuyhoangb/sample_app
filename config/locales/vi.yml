@@ -99,9 +99,17 @@ vi:
       new_user: "Tài khoản mới?"
       signup_now: "Đăng kí ngay!"
       remember_me: "Nhớ đăng nhập!"
+      forgot_pass: "Quên mật khẩu"
     create:
       danger: "email Không hợp lệ/Mật khẩu chưa chính xác "
   user_mailer:
+    password_reset:
+      expire: "Liên kết này sẽ hết hạn sau hai giờ.
+        Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+        mật khẩu của bạn sẽ vẫn như cũ. "
+      name: "Đặt lại mật khẩu"
+      detail: "Để thay đổi mật khẩu vui lòng click vào link dưới"
+      pass: " Đặt lại mật khẩu"
     account_activation:
       body_mail: "Chào mừng bạn đến với  Sample App! Hãy click vào link bên dưới để activate tài khoản của bạn"
       hi: "Xin Chào  "
@@ -111,3 +119,20 @@ vi:
     edit:
       activated: "Tài khoản đã được xác thực"
       no_activated: "Link xác thực không tồn tại"
+  password_resets:
+    new:
+      forgot_pass: "Quên mật khẩu"
+      email: "Địa chỉ Email"
+      submit: "Gửi"
+    create:
+      email_notfound: "Không tìm thấy địa chỉ email"
+      info: "Mật khẩu và thông tin đã được gửi đến địa chỉ mail đăng kí."
+    edit:
+      name: "Đặt lại mật khẩu"
+      btn_submit: "Cập nhật"
+      password_re: "Nhập lại mật khẩu"
+      password: "Mật khẩu"
+    update:
+      empty: "không để trống"
+    check_expiration:
+      expiration: "Đã thay đổi mật khẩu"
