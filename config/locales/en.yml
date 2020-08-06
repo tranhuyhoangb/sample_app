@@ -76,6 +76,7 @@ en:
       desc: "Find me in app/views/users/new.html.erb"
     create:
       fail: "Create  Fail! >.<"
+      check_mail: "Please check your email to activate your account."
     update:
       updated: "Profile updated"
     destroy:
@@ -101,3 +102,14 @@ en:
       remember_me: "Remember me on this computer"
     create:
       danger: "Invalid email/password combination"
+  user_mailer:
+    account_activation:
+      body_mail: "Welcome to the Sample App! Click on the link below to activate your account"
+      hi: "Hi "
+      detail: "Welcome to the Sample App! Click on the link below to activate your account:"
+      subject: "Account activation"
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      no_activated: "Invalid activation link"
+
