@@ -26,3 +26,5 @@ form:
   check_box: "1"
 pagination:
   per_page: 10
+time:
+  expried: 2
