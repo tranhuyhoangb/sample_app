@@ -24,6 +24,11 @@ en:
       content2: "by"
       link_desc: "Ruby on Rails Tutorial"
       link1_desc: "Michael Hartl"
+    micropost:
+      post: "Post"
+    user_info:
+      view: "view my profile"
+      mic: "micropost"
   static_pages:
     home:
       home: "Home"
@@ -31,6 +36,7 @@ en:
       sign_up_now: "Sign up now!"
       content_html: "This is the Contact page for the %{link} sample application."
       link_desc: "Ruby on Rails Tutorial"
+      feed: "Micropost Feed"
     contact:
       contact: "contact"
       welcome: "Welcome to the Sample App"
@@ -92,6 +98,8 @@ en:
       edit_user: "Edit user"
       save: "Save Change"
       desc: "Update your profile"
+    show:
+      micro: "Microposts"
   sessions:
     new:
       login: "Log In"
@@ -116,7 +124,6 @@ en:
       hi: "Hi "
       detail: "Welcome to the Sample App! Click on the link below to activate your account:"
       subject: "Account activation"
-
   account_activations:
     edit:
       activated: "Account activated!"
@@ -138,4 +145,15 @@ en:
       empty: "can't be empty"
     check_expiration:
       expiration: "Password reset has expired."
-
+  microposts:
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted"
+    image_format: "Must be a valid image format"
+    image_size: "Should be less than 5MB"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      confirm: "You sure?"

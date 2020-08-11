@@ -24,6 +24,11 @@ vi:
       content2: "của"
       link_desc: "Khóa học Ruby"
       link1_desc: "Michael Hartl"
+    micropost:
+      post: "Đăng"
+    user_info:
+      view: "view my profile"
+      mic: "Viết bài"
   static_pages:
     home:
       home: "Trang chủ"
@@ -31,6 +36,7 @@ vi:
       sign_up_now: "Đăng nhập ngay!"
       content_html: "Đây là trang %{link} cho sample application."
       link_desc: "khóa học Ruby"
+      feed: "Dữ liệu"
     help:
       help: "Hỗ trợ"
       welcome: "Chào mừng đến với Sample App"
@@ -91,6 +97,8 @@ vi:
       edit_user: "Chỉnh sửa tài khoản cá nhân"
       save: "Lưu thay đổi"
       desc: "Chỉnh sửa tài khoản cá nhân "
+    show:
+      micro: "Bài Đăng"
   sessions:
     new:
       login: "Đăng nhập"
@@ -136,3 +144,15 @@ vi:
       empty: "không để trống"
     check_expiration:
       expiration: "Đã thay đổi mật khẩu"
+  microposts:
+    create:
+      success: "Bài viết đã được đăng lên!"
+    destroy:
+      success: "Bài viết đã được xóa!"
+    image_format: "Gửi hinhf ảnh đúng định dạng"
+    image_size: "Không được quá 5MB"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      delete: "Xóa"
+      confirm: "bạn chắc chắn"
