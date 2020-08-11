@@ -19,6 +19,11 @@ validations:
     max_email_length: 255
     min_password_length: 6
     avatar_size: 50
+  post:
+    content_length: 140
+    content_type: /%w(image/jpeg image/gif image/png)/
+    max_file_size: 5
+    image_type: "image/jpeg,image/gif,image/png"
 helper:
   user:
     size: 80
@@ -28,3 +33,5 @@ pagination:
   per_page: 10
 time:
   expried: 2
+gravatar:
+  size: 50
