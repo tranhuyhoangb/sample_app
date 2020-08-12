@@ -24,10 +24,10 @@ vi:
       content2: "của"
       link_desc: "Khóa học Ruby"
       link1_desc: "Michael Hartl"
-    micropost:
+    micropost_form:
       post: "Đăng"
     user_info:
-      view: "view my profile"
+      view: "Xem hồ sơ"
       mic: "Viết bài"
   static_pages:
     home:
@@ -55,6 +55,9 @@ vi:
       sign_up_now: "Đăng nhập ngay!"
       content1: "Đây là trang"
       link_desc: "khóa học Ruby"
+    stats:
+      following: "Đang theo dõi"
+      follower: "Số người theo dõi"
   users:
     new:
       sign_up: "Đăng Ký"
@@ -99,6 +102,13 @@ vi:
       desc: "Chỉnh sửa tài khoản cá nhân "
     show:
       micro: "Bài Đăng"
+    follow:
+      follow: "Theo dõi"
+     unfollow:
+      unfollow: "Hủy theo dõi"
+    show_follow:
+      view: "Xem hồ sơ"
+      micropost: "Bài đăng:"
   sessions:
     new:
       login: "Đăng nhập"
@@ -156,3 +166,7 @@ vi:
       ago: "trước"
       delete: "Xóa"
       confirm: "bạn chắc chắn"
+  follower:
+    follower: "Theo dõi"
+  following:
+    following: "Đang theo dõi"

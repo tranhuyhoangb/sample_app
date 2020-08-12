@@ -3,7 +3,7 @@
   <div class="field">
     <%= f.text_area :content, placeholder: "Compose new micropost..." %>
   </div>
-  <%= f.submit t ".post", class: "btn btn-primary" %>
+  <%= f.submit t(".post"), class: "btn btn-primary" %>
   <span class="image">
     <%= f.file_field :image, accept: Settings.validations.image_type %>
   </span>
