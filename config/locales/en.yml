@@ -24,7 +24,7 @@ en:
       content2: "by"
       link_desc: "Ruby on Rails Tutorial"
       link1_desc: "Michael Hartl"
-    micropost:
+    micropost_form:
       post: "Post"
     user_info:
       view: "view my profile"
@@ -55,6 +55,9 @@ en:
       sign_up_now: "Sign up now!"
       content1: "This is the Contact page for the"
       link_desc: "Ruby on Rails Tutorial"
+    stats:
+      following: "following"
+      follower: "followers"
   users:
     new:
       sign_up: "Sign Up"
@@ -100,6 +103,13 @@ en:
       desc: "Update your profile"
     show:
       micro: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view: "view my profile"
+      micropost: "Microposts:"
   sessions:
     new:
       login: "Log In"
@@ -157,3 +167,7 @@ en:
       ago: "ago"
       delete: "Delete"
       confirm: "You sure?"
+  follower:
+    follower: "Follower"
+  following:
+    following: "Following"

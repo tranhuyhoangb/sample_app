@@ -23,6 +23,7 @@ class MicropostsController < ApplicationController
 
   def micropost_params
     params.require(:micropost).permit Micropost::MICROPOST_PARAMS
+  end
 
   def correct_user
     @micropost = current_user.microposts.find_by id: params[:id]
